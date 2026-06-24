@@ -30,8 +30,8 @@ REST API сервер на Django с SQLite базой данных в Docker к
     Content-Type: application/json
 
     {
-      \"name\": \"Тестовый item\",
-      \"description\": \"Описание тестового item\"
+      "name": "Тестовый item",
+      "description": "Описание тестового item"
     }
 
 ## Как остановить контейнер
