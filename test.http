@@ -1,0 +1,14 @@
+### Получить все items
+GET http://localhost:8000/api/items/
+
+### Создать новый item
+POST http://localhost:8000/api/items/
+Content-Type: application/json
+
+{
+  \"name\": \"Тестовый item из Docker\",
+  \"description\": \"Описание тестового item\"
+}
+
+### Получить конкретный item
+GET http://localhost:8000/api/items/1/
